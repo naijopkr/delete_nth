@@ -4,7 +4,7 @@ from delete_nth import delete_nth
 def main():
     while True:
         try:
-            n = int(input('Insert the maximum occurrences of a number: '))
+            n = int(input('Insert the maximum occurrences: '))
         except:
             print('Invalid input. Try again.')
         else:
